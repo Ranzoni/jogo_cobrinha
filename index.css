@@ -1,0 +1,33 @@
+*, td, tr {
+    margin: 0;
+    padding: 0;
+}
+
+#area-jogo {
+    margin: 0 auto;
+    width: max-content;
+    border: 3px solid black;
+}
+
+.quadrante-tabuleiro {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+.quadrante-azul {
+    background-color: blue;
+}
+
+.quadrante-vermelho {
+    background-color: red;
+}
+
+.quadrante-laranja {
+    background-color: orange !important;
+}
+
+#mensagem-jogador {
+    margin: 10px auto;
+    width: max-content;
+}
